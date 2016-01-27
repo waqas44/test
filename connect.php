@@ -18,8 +18,7 @@ $connect = mysqli_connect($host, $user, $pass, $db_name);
 if(!$connect){
 	echo "could not connect to server <br>";
 	die("Connection failed: " . mysqli_connect_error());
-	
-	
+
 } else {
 	echo "Connect to server Successfully! <br>";
 $db = mysqli_select_db($connect, $db_name);

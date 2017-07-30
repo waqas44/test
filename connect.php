@@ -23,12 +23,12 @@ if(!$connect){
 	echo "Connect to server Successfully! <br>";
 $db = mysqli_select_db($connect, $db_name);
 
-if(!$db){
+if(!$db){//on fail connection will die
 echo "could not select to DB {$db_name}<br>";
 	die("Select to DB failed: " . mysqli_error());
 	
 	
-}else {
+}else { //on sucess connection will Maintain
 	echo "Select to DB Successfully! {$db_name}	 <br>";
 }
 

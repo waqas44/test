@@ -10,7 +10,7 @@
 //$db_name ="learning";
 $host = "mysql1.000webhost.com"; 
 $user = "a9911200_learn";
-$pass = "bcom622";
+$pass = "bb";
 $db_name ="a9911200_learn";
 
 $connect = mysqli_connect($host, $user, $pass, $db_name);
